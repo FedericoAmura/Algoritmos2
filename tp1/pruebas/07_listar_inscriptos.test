@@ -1,0 +1,38 @@
+<listar_inscriptos a
+>Error: el curso con id "a" no existe
+<agregar_curso a,Curso 1,00.00,1
+>OK
+<agregar_curso b,Curso 2,00.00,3
+>OK
+<agregar_curso c,Curso 3,00.00,60
+>OK
+<listar_inscriptos b
+<inscribir 1,b
+>OK: padron 1 inscripto como regular
+<inscribir 2,b
+>OK: padron 2 inscripto como regular
+<inscribir 3,b
+>OK: padron 3 inscripto como regular
+<inscribir 4,b
+>OK: padron 4 inscripto como condicional
+<inscribir 5,b
+>OK: padron 5 inscripto como condicional
+<listar_inscriptos b
+>1 regular
+>2 regular
+>3 regular
+>4 condicional
+>5 condicional
+<desinscribir 2,b
+>OK
+<listar_inscriptos b
+>1 regular
+>3 regular
+>4 regular
+>5 condicional
+<desinscribir 1,b
+>OK
+<listar_inscriptos b
+>3 regular
+>4 regular
+>5 regular

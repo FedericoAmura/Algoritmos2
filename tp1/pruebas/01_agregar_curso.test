@@ -1,0 +1,4 @@
+<agregar_curso rositaw,Rosita Wachenchauzer,75.41,60
+>OK
+<agregar_curso rositaw,x,x,1
+>Error: el curso con id "rositaw" ya existe

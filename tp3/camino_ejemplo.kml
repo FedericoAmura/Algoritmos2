@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" 
+xmlns:gx="http://www.google.com/kml/ext/2.2"
+xmlns:kml="http://www.opengis.net/kml/2.2"
+xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+
+<!-- Esto es un comentario, pueden sacarse sin modificar el documento (¡sáquenlos!) -->
+<!-- El documento tiene una estructura en tres secciones:
+	1) Encabezado
+	2) Marcadores y/o líneas.
+	3) Pie
+Las partes 1) y 3) hay que copiarlas tal cual. La parte 2) se va a repetir tantas veces como cosas queramos dibujar.
+-->
+
+<!-- Título del mapa -->
+	<name>Ruta de ejemplo</name>
+<!-- Final Título -->
+
+<!-- Hasta acá pasó el encabezado -->
+
+<!-- Acá empieza una línea -->
+		<Placemark>
+			<name> Viaje a fabrica </name>
+			<description> Recorrido de la fabrica 17098 </description>
+			<LineString>
+				<coordinates>
+					-58.36269225,-34.65738198
+					-58.36169167,-34.65829414
+					-58.36161159,-34.65836816
+					-58.36122105,-34.65922337
+					-58.36221762,-34.65993234
+					-58.3633586,-34.66075574
+					-58.36431039,-34.6614137
+					-58.36534718,-34.66212977
+					-58.36590235,-34.6625368
+					-58.36710464,-34.66336759
+					-58.36649665,-34.66433021
+					-58.36592023,-34.66518878
+					-58.36552853,-34.66578604
+					-58.36542623,-34.66594327
+					-58.36486956,-34.66680927
+					-58.36440126,-34.66754138
+					-58.36431345,-34.66767076
+					-58.36421356,-34.66780876
+					-58.36389212,-34.6682532
+					-58.36314335,-34.6693667
+					-58.36268117,-34.67004806
+					-58.36114478,-34.67232074
+					-58.36155185,-34.67272548
+					-58.36176547,-34.67289369
+					-58.36154951,-34.67301621
+					-58.36172648,-34.67305229
+					-58.36201,-34.67331034
+					-58.36183577,-34.67443491
+					-58.36168505,-34.67540863
+					-58.36154114,-34.6763857
+					-58.36140371,-34.677325
+					-58.36121612,-34.67866143
+					-58.36100312,-34.67995956
+					-58.36096403,-34.68023204
+					-58.36079349,-34.6815039
+					-58.36062733,-34.6826162
+					-58.36055236,-34.683098
+					-58.36054089,-34.68329046
+					-58.36043766,-34.68400666
+					-58.36104461,-34.68454848
+					-58.36009578,-34.68529477
+					-58.35913905,-34.68607947
+					-58.3581997,-34.68682699
+					-58.35727844,-34.68755997
+					-58.35680798,-34.68800352
+					-58.35773605,-34.68890354
+					-58.35865096,-34.68979856
+					-58.35950967,-34.69063406
+					-58.35957844,-34.69072031
+					-58.35902375,-34.69117401
+					-58.35879692,-34.69136869
+					-58.35945453,-34.69195539
+					-58.3597064,-34.69218333
+					-58.35952466,-34.69327939
+					-58.35929015,-34.69480741
+					-58.35867819,-34.6952585
+					-58.35797516,-34.69582296
+					-58.35720778,-34.69643159
+					-58.35660684,-34.69691708
+					-58.35639906,-34.69708982
+					-58.35559864,-34.69773587
+					-58.35643727,-34.69848784
+					-58.35846823,-34.70029422
+				</coordinates>
+		</LineString>
+	</Placemark>
+<!-- Acá termina la línea -->
+
+<!-- Acá empieza un marcador -->
+	<Placemark>
+		<name>Polo Norte</name>
+		<description> Papa Noel </description>
+		<Point>
+			<coordinates>-58.36269225,-34.65738198</coordinates>
+		</Point>
+	</Placemark>
+<!-- Acá termina el marcador -->
+
+<!-- Notar que línea y marcador tienen la misma estructura. Sólo cambia que uno contiene un <LineString> con la sucesión de coordenadas latitud,longitud y el otro, en cambio, tiene un <Point> con una única coordenada. -->
+
+<!-- Acá empieza otro marcador -->
+	<Placemark>
+		<name> Fabrica 17098 </name>
+		<description> Juguetes! </description>
+		<Point>
+			<coordinates>-58.35846823, -34.70029422</coordinates>
+		</Point>
+	</Placemark>
+<!-- Acá termina el otro marcador -->
+
+<!-- Lo que resta es el pie -->
+
+</Document>
+</kml>

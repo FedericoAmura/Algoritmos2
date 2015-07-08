@@ -1,0 +1,26 @@
+<eliminar_curso a
+>Error: el curso con id "a" no existe
+<agregar_curso a,Curso 1,00.00,1
+>OK
+<agregar_curso b,Curso 2,00.00,1
+>OK
+<agregar_curso c,Curso 3,00.00,60
+>OK
+<inscribir 55555,a
+>OK: padron 55555 inscripto como regular
+<inscribir 55555,b
+>OK: padron 55555 inscripto como regular
+<eliminar_curso b
+>OK
+<listar_cursos
+>a: Curso 1 (00.00) Vacantes: 1 Inscriptos: 1
+>c: Curso 3 (00.00) Vacantes: 60 Inscriptos: 0
+<eliminar_curso c
+>OK
+<eliminar_curso c
+>Error: el curso con id "c" no existe
+<listar_cursos
+>a: Curso 1 (00.00) Vacantes: 1 Inscriptos: 1
+<eliminar_curso a
+>OK
+<listar_cursos

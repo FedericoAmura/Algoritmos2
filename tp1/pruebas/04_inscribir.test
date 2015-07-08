@@ -1,0 +1,20 @@
+<inscribir 55555,a
+>Error: el curso con id "a" no existe
+<agregar_curso a,Curso 1,00.00,1
+>OK
+<agregar_curso b,Curso 2,00.00,1
+>OK
+<agregar_curso c,Curso 3,00.00,60
+>OK
+<inscribir 55555,a
+>OK: padron 55555 inscripto como regular
+<inscribir 55555,b
+>OK: padron 55555 inscripto como regular
+<inscribir 55555,a
+>Error: el padron 55555 ya esta inscripto en el curso "a"
+<inscribir 11111,a
+>OK: padron 11111 inscripto como condicional
+<listar_cursos
+>a: Curso 1 (00.00) Vacantes: 1 Inscriptos: 2
+>b: Curso 2 (00.00) Vacantes: 1 Inscriptos: 1
+>c: Curso 3 (00.00) Vacantes: 60 Inscriptos: 0

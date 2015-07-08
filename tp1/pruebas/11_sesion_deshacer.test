@@ -1,0 +1,46 @@
+<sesion_deshacer
+>Error: no hay una sesion en curso
+<agregar_curso a,Curso 1,00.00,1
+>OK
+<agregar_curso b,Curso 2,00.00,1
+>OK
+<agregar_curso c,Curso 3,00.00,60
+>OK
+<sesion_iniciar 55555
+>OK
+<sesion_deshacer
+>Error: no hay acciones para deshacer
+<sesion_inscribir a
+>OK: el padron 55555 sera inscripto como regular
+<sesion_ver
+>Padron: 55555
+>a (regular)
+<sesion_deshacer
+>OK
+<sesion_ver
+>Padron: 55555
+>No hay inscripciones
+<sesion_inscribir b
+>OK: el padron 55555 sera inscripto como regular
+<sesion_inscribir a
+>OK: el padron 55555 sera inscripto como regular
+<sesion_inscribir c
+>OK: el padron 55555 sera inscripto como regular
+<sesion_ver
+>Padron: 55555
+>b (regular)
+>a (regular)
+>c (regular)
+<sesion_deshacer
+>OK
+<sesion_ver
+>Padron: 55555
+>b (regular)
+>a (regular)
+<sesion_aplicar
+>OK
+<listar_inscriptos a
+>55555 regular
+<listar_inscriptos b
+>55555 regular
+<listar_inscriptos c

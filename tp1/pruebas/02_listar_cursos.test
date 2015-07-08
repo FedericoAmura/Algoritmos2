@@ -1,0 +1,11 @@
+<listar_cursos
+<agregar_curso a,Curso 1,00.00,1
+>OK
+<agregar_curso b,Curso 2,00.00,10
+>OK
+<agregar_curso c,Curso 3,00.00,1
+>OK
+<listar_cursos
+>a: Curso 1 (00.00) Vacantes: 1 Inscriptos: 0
+>b: Curso 2 (00.00) Vacantes: 10 Inscriptos: 0
+>c: Curso 3 (00.00) Vacantes: 1 Inscriptos: 0

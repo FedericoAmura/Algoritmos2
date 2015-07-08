@@ -1,0 +1,28 @@
+<agregar_curso a,Curso 1,00.00,1
+>OK
+<agregar_curso b,Curso 2,00.00,0
+>OK
+<agregar_curso c,Curso 3,00.00,60
+>OK
+<sesion_ver
+>Error: no hay una sesion en curso
+<sesion_iniciar 55555
+>OK
+<sesion_ver
+>Padron: 55555
+>No hay inscripciones
+<sesion_inscribir a
+>OK: el padron 55555 sera inscripto como regular
+<sesion_ver
+>Padron: 55555
+>a (regular)
+<sesion_inscribir b
+>OK: el padron 55555 sera inscripto como condicional
+<sesion_ver
+>Padron: 55555
+>a (regular)
+>b (condicional)
+<sesion_aplicar
+>OK
+<sesion_ver
+>Error: no hay una sesion en curso

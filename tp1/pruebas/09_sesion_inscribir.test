@@ -1,0 +1,26 @@
+<sesion_inscribir a
+>Error: no hay una sesion en curso
+<sesion_iniciar 55555
+>OK
+<sesion_inscribir a
+>Error: el curso con id "a" no existe
+<agregar_curso a,Curso 1,00.00,1
+>OK
+<agregar_curso b,Curso 2,00.00,0
+>OK
+<agregar_curso c,Curso 3,00.00,60
+>OK
+<sesion_inscribir a
+>OK: el padron 55555 sera inscripto como regular
+<listar_inscriptos a
+<sesion_inscribir a
+>Error: la sesion ya contiene una inscripcion al curso "a"
+<sesion_inscribir b
+>OK: el padron 55555 sera inscripto como condicional
+<sesion_aplicar
+>OK
+<listar_inscriptos a
+>55555 regular
+<listar_inscriptos b
+>55555 condicional
+<listar_inscriptos c

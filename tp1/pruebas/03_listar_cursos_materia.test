@@ -1,0 +1,11 @@
+<listar_cursos_materia 75.41
+<agregar_curso a,Curso 1,75.40,1
+>OK
+<listar_cursos_materia 75.41
+<agregar_curso b,Curso 2,75.41,10
+>OK
+<agregar_curso c,Curso 3,75.41,1
+>OK
+<listar_cursos_materia 75.41
+>b: Curso 2 (75.41) Vacantes: 10 Inscriptos: 0
+>c: Curso 3 (75.41) Vacantes: 1 Inscriptos: 0

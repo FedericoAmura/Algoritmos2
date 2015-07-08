@@ -1,0 +1,10 @@
+<sesion_aplicar
+>Error: no hay una sesion en curso
+<sesion_iniciar 55555
+>OK
+<sesion_iniciar 11111
+>Error: ya hay una sesion en curso
+<sesion_aplicar
+>OK
+<sesion_aplicar
+>Error: no hay una sesion en curso
